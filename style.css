@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ahrefs{
+    text-decoration: none;
+    
+    height: 19px;
+    font-weight: 600;
+}
+.wrapperhrefs{
+    width: 362px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    
+    border-radius: 50%;
+    font-size: 2rem;
+    
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    text-decoration: none;
+
+}
+
+.social-media a:hover{
+    background: wheat;
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.really{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 120px;
+}
+.really1{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.last{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main{
+    text-align: center;
+}
+
+.btn-wrap{
+    width: 261px;
+    height: 60px;
+    background-color: #FFC000;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px ;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    height: 500px;
+}
+
+.allfounders{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.founderimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.centertext{
+    text-align: center;
+    padding: 10px 0;
+}
+.asoschi{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 972px) {
+    .wrapperhrefs{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 642px){
+    .navbar{
+        padding: 0 20px;
+        flex-direction: column-reverse;
+    }
+    .social-media{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .allfounders{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .really{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+}
+
+.centeronly{
+    text-align: center;
+    padding: 20px;
+}
